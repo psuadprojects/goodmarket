@@ -1,0 +1,26 @@
+---
+title: PSU Good Market Seller's Society
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  profiles:
+    title: Profiles
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+permalink: pretty
